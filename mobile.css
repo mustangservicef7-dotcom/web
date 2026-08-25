@@ -1,0 +1,179 @@
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+.container {
+		width: calc(100% - 30px);
+	}
+	
+	.hours-time {
+		font-size: 11px;
+		white-space: normal;
+		margin-top: 4px;
+		font-weight: 500;
+		text-align: left;
+	}
+	
+	.hours-title {
+		font-size: 11px;
+		font-weight: 800;
+		color: #e6a23c;
+		letter-spacing: 0.7px;
+	}
+	
+	.working-hours {
+		width: 50%;
+		flex-shrink: 0;
+		margin: 0;
+		align-items: flex-start;
+		text-align: left;
+	}
+	
+    .phone-label {
+	font-size: 11px;
+	font-weight: 700;
+	margin-top: 4px;
+    }
+    .phone-number {
+	font-size: 16px;
+	font-weight: 800;
+	white-space: nowrap !important;
+	display: block;
+	width: max-content;
+    }
+	
+	.phone {
+	width: 50%;
+	margin: 0;
+	flex-shrink: 0;
+	align-items: flex-end;
+	text-align: right;
+	white-space: nowrap;
+    }
+	
+	header {
+		padding: 15px 0 18px;
+	}
+	
+    header .container {
+		display: flex;
+		justify-content: space-between;
+        flex-wrap: wrap;
+		align-items: center;
+        gap: 0px;
+    }
+	
+	.logo {
+		flex-basis: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 12px;
+	}
+
+    .logo img {
+	width: 125px;
+	max-width: 125px;
+	height: auto;
+    }
+   
+    nav {
+        display: none;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 30px 0;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        gap: 0px;
+		border-radius: 20px;
+    }
+
+    .hero-text {
+		width: 100%;
+		padding: 40px 25px;
+	}
+	
+	.eyebrow {
+		font-size: 12px;
+		margin-top: 0;
+	}
+	
+    .hero-image {
+        width: 100%;
+		height: 375px;
+		min-height: 350px;
+		background-position: center 70%;
+		position: relative !important;
+	}
+
+	.hero-image::after {
+		background: linear-gradient(
+		to bottom,
+		#602626 0%,
+		rgba(96,38,38,0.8) 12%,
+		rgba(96,38,38,0.4) 30%,
+		transparent 55%
+		);
+	}
+    h1 {
+        font-size: 40px;
+		line-height: 1.05;
+		margin: 15px 0;
+    }
+
+    .hero-description {
+        font-size: 16px;
+		line-height: 1.5;
+    }
+
+    section:not(.hero) {
+        padding: 60px 0;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+	
+	.button {
+		padding: 14px 20px;
+		font-size: 15px;
+		width: fit-content;
+	}
+	
+	/*БЛОК ГАРАНТИИ И КАЧЕСТВА И Т.Д. для мобилок*/
+	.trust{
+		padding: 60px 0;
+	}
+	
+	.trust-content{
+		flex-direction: column !important;
+		gap: 35px;
+	}
+	.trust-image{
+		width: 100%;
+		height: 375px;
+		min-height: 350px;
+	}
+	.trust-image::after {
+    background: linear-gradient(
+        to bottom,
+        transparent 45%,
+        rgba(96, 38, 38, 0.4) 70%,
+        #602626 100%
+    );
+}
+	.trust-text{
+		width: 100%;
+	}
+	.trust-description{
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	.trust-highlight{
+		font-size: 26px;
+		margin: 12px 0;
+	}
+}
